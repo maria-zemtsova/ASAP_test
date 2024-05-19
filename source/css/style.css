@@ -1,0 +1,94 @@
+.page {
+  font-family: "Suisse Intl", "Arial", sans-serif;
+  width: 390px;
+  margin: 0 auto;
+}
+
+.main__wrapper {
+  margin: 10px 15px;
+}
+
+.main__title {
+  font-size: 32px;
+  font-weight: bold;
+  width: 327px;
+  min-height: 89px;
+  margin: 0 0;
+  background-image: url("../../img/Vector_line.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+img {
+  display: none;
+}
+
+.main__button {
+  width: 327px;
+  height: 72px;
+  background-color: #E03A7B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 8px 8px 24px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 24px;
+  border-radius: 90px;
+  margin-top: 25px;
+}
+
+.svg-wrapper {
+  width: 56px;
+  height: 56px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.button__svg {
+  position: relative;
+  left: 20px;
+  top: 14px;
+}
+
+@media (min-width: 1360px) {
+  .page {
+    font-family: "Suisse Intl", "Arial", sans-serif;
+    width: 1920px;
+  }
+  .main {
+    width: 1360px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 550px 570px;
+    gap: 195px;
+  }
+  .main__wrapper {
+    margin-top: 56px;
+    margin-left: 56px;
+  }
+  .main__title {
+    font-size: 64px;
+    font-weight: bold;
+    width: 600px;
+    height: 158px;
+    margin: 0 0;
+    margin-bottom: 73px;
+  }
+  img {
+    display: block;
+    width: 570px;
+    height: 397px;
+  }
+  .main__img {
+    width: 570px;
+    height: 397px;
+    grid-column: 2/3;
+  }
+  .main__button {
+    width: 266px;
+    height: 70px;
+    background-color: #E03A7B;
+  }
+}
+/*# sourceMappingURL=style.css.map */
