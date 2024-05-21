@@ -38,6 +38,10 @@ img {
   margin-top: 25px;
 }
 
+.main__button:hover {
+  opacity: 0.5;
+}
+
 .svg-wrapper {
   width: 56px;
   height: 56px;
@@ -56,6 +60,7 @@ img {
     font-family: "Suisse Intl", "Arial", sans-serif;
     width: 1920px;
   }
+
   .main {
     width: 1360px;
     margin: 0 auto;
@@ -63,10 +68,12 @@ img {
     grid-template-columns: 550px 570px;
     gap: 195px;
   }
+
   .main__wrapper {
     margin-top: 56px;
     margin-left: 56px;
   }
+
   .main__title {
     font-size: 64px;
     font-weight: bold;
@@ -75,16 +82,19 @@ img {
     margin: 0 0;
     margin-bottom: 73px;
   }
+
   img {
     display: block;
     width: 570px;
     height: 397px;
   }
+
   .main__img {
     width: 570px;
     height: 397px;
     grid-column: 2/3;
   }
+
   .main__button {
     width: 266px;
     height: 70px;
